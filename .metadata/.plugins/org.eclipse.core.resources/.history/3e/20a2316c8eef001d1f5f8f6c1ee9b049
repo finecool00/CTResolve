@@ -1,0 +1,23 @@
+package programous;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MainClass {
+	public static void main(String[] args) {
+		String[] arr = {"0123456789","9876543210","9999999999999"};
+		List<Integer> list = new ArrayList<>();
+		int k = 50000;
+		int s = 5;
+		int l = 5;
+		for(int i = 0; i<arr.length;i++) {
+			int a = Integer.parseInt(arr[i].substring(s,s+l));
+			if(a>k) {
+				list.add(a);
+			}
+		}		System.out.println(list.get(list.size()));										
+	}
+}
+
+
+

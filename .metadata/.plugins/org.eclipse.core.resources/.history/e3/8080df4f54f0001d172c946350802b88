@@ -1,0 +1,19 @@
+package programous;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class MainClass {
+	public static void main(String[] args) {
+		
+		String arr = "ProgrammersS123";
+		int n = 11;
+		System.out.println(arr.substring(arr.length()-n));					
+					
+																
+	}
+}
+
+
+

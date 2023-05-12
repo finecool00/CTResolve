@@ -1,0 +1,11 @@
+package day10.abstract_.bad;
+
+public class MainClass {
+	public static void main(String[] args) {
+		SeoulStore s = new SeoulStore();
+		s.apple();
+		s.melon();
+		s.orange();
+		s.grape();
+	}
+}
